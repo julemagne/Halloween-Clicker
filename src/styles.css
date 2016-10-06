@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  background-color: black;
+}
+
+.spooked {
+  font-family: 'Nothing You Could Do', cursive;
+}
