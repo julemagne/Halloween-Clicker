@@ -10,9 +10,9 @@ import { WarriorComponent } from './warrior/warrior.component';
 import { BardComponent } from './bard/bard.component';
 import { SummonerComponent } from './summoner/summoner.component';
 import { DarkKnightComponent } from './dark-knight/dark-knight.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import { routing, appRoutingProviders } from './app.routing';
-
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { routing, appRoutingProviders } from './app.routing';
     WarriorComponent,
     BardComponent,
     SummonerComponent,
-    DarkKnightComponent
+    DarkKnightComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

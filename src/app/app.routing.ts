@@ -7,6 +7,7 @@ import { WarriorComponent } from './warrior/warrior.component';
 import { BardComponent } from './bard/bard.component';
 import { SummonerComponent } from './summoner/summoner.component';
 import { DarkKnightComponent } from './dark-knight/dark-knight.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   { path: '', component: StartComponent },
@@ -14,7 +15,8 @@ const appRoutes: Routes = [
   { path: 'warrior', component: WarriorComponent },
   { path: 'bard', component: BardComponent },
   { path: 'summoner', component: SummonerComponent },
-  { path: 'dark-knight', component: DarkKnightComponent }
+  { path: 'dark-knight', component: DarkKnightComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 export const appRoutingProviders: any[] = [
