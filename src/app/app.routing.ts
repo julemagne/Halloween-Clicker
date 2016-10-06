@@ -8,6 +8,7 @@ import { WarriorComponent } from './warrior/warrior.component';
 import { BardComponent } from './bard/bard.component';
 import { SummonerComponent } from './summoner/summoner.component';
 import { DarkKnightComponent } from './dark-knight/dark-knight.component';
+import { FinComponent } from './fin/fin.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
       { path: 'dark-knight', component: DarkKnightComponent }      
     ]
   },
+  { path: 'fin', component: FinComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

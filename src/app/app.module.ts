@@ -11,6 +11,7 @@ import { WarriorComponent } from './warrior/warrior.component';
 import { BardComponent } from './bard/bard.component';
 import { SummonerComponent } from './summoner/summoner.component';
 import { DarkKnightComponent } from './dark-knight/dark-knight.component';
+import { FinComponent } from './fin/fin.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 import { routing, appRoutingProviders } from './app.routing';
@@ -25,7 +26,8 @@ import { routing, appRoutingProviders } from './app.routing';
     SummonerComponent,
     DarkKnightComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    FinComponent
   ],
   imports: [
     BrowserModule,
