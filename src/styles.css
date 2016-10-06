@@ -4,6 +4,16 @@ body {
   background-color: black;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
 .spooked {
   font-family: 'Nothing You Could Do', cursive;
 }
