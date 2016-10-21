@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { StartComponent } from './start/start.component';
+import { BlobMorpher } from './start/start.component';
 import { WitchComponent } from './witch/witch.component';
 import { WarriorComponent } from './warrior/warrior.component';
 import { BardComponent } from './bard/bard.component';
@@ -20,6 +21,7 @@ import { routing, appRoutingProviders } from './app.routing';
   declarations: [
     AppComponent,
     StartComponent,
+    BlobMorpher,
     WitchComponent,
     WarriorComponent,
     BardComponent,

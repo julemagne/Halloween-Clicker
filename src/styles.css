@@ -1,3 +1,31 @@
+#yourElement {
+  animation-name: bounceOutLeft;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+#bbb {
+  color: #c9302c; /* red */
+  background-color:rgba(255,0,0,0);
+  text-align: center;
+}
+
+#bbb:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+svg {
+  width: 100%;
+  height: 600px;
+}
+
+.blob {
+  stroke: orange;
+  stroke-width: 4;
+}
+
 body {
   font-family: 'Cormorant Garamond', serif;
   color: white;
@@ -14,6 +42,16 @@ a:hover {
   text-decoration: none;
 }
 
+.hello {
+  font-size: 4rem;
+}
+
 .spooked {
+  color: white;
   font-family: 'Nothing You Could Do', cursive;
+}
+
+.spooked:hover {
+  color: orange;
+  text-decoration: none;
 }
