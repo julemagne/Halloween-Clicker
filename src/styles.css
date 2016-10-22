@@ -46,7 +46,13 @@ a:hover {
   font-size: 4rem;
 }
 
-.spooked {
+.fin-centered {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 10rem;
+}
+
+.spooky-font {
   color: white;
   font-family: 'Nothing You Could Do', cursive;
 }
