@@ -7,13 +7,13 @@
 
 #bbb {
   color: #c9302c; /* red */
-  background-color:rgba(255,0,0,0);
   text-align: center;
-}
 
-#bbb:hover {
-  color: orange;
-  text-decoration: none;
+  &:hover {
+    color: orange;
+    text-decoration: none;
+  }
+
 }
 
 svg {
@@ -35,11 +35,12 @@ body {
 a {
   color: white;
   text-decoration: none;
-}
+  
+  &:hover {
+    color: orange;
+    text-decoration: none;
+  }
 
-a:hover {
-  color: orange;
-  text-decoration: none;
 }
 
 .hello {
