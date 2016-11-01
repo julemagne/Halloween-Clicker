@@ -47,10 +47,39 @@ a {
   font-size: 4rem;
 }
 
+.center-button {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.btn-scary {
+  font-size: 4rem;
+  color: orange;
+  background-color: black;
+  padding: 4rem;
+
+  &:hover {
+    color: black;
+    background-color: orange;
+    padding: 6rem;
+    margin-top: -2rem;
+  }
+
+}
+
 .fin-centered {
   text-align: center;
   font-size: 4rem;
   padding-top: 10rem;
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  a button {
+    padding: 1.25rem;
+    font-size: 2rem;
+  }
 }
 
 .spooky-font {
