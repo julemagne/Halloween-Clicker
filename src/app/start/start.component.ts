@@ -1,4 +1,6 @@
 import { Component, Inject, OnInit, ElementRef } from '@angular/core';
+declare var TimelineMax:any;
+declare var Back:any;
 
 @Component({
   selector: '[blob-morpher]',
